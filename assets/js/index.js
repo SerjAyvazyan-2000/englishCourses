@@ -86,7 +86,7 @@ document.querySelectorAll('.home-link ').forEach(link => {
 });
 
 document.addEventListener('DOMContentLoaded', function () {
-    const cookieBanner = document.getElementById('cookieBanner');
+    const cookieBanner = document.getElementById('cookie-consent');
     const acceptBtn = document.getElementById('acceptCookies');
 
     if (!localStorage.getItem('cookiesAccepted')) {
